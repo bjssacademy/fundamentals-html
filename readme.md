@@ -60,7 +60,7 @@ If you have always wanted to make your own Web page, but you were under the impr
 
 ## What is HTML
 
-![](img%5CHTML%201010.jpg)
+![](<img/HTML 1010.jpg>)
 
 
 HTML is the brainchild of Tim Berners-­Lee. In 1990, Berners­-Lee needed something that would help scientists coming from different colleges and universities access documents and research from other scientists. That problem led to Berners­-Lee inventing the World Wide Web, the hypertext transfer protocol or HTTP, and HTML.
@@ -95,7 +95,7 @@ Save the file (Ctrl+S normally) and the double-click on it to open in your defau
 
 ## HTML Page Structure
 
-![](img%5CHTML%201011.png)
+![](<img/HTML 1011.png)
 
 HTML is very simple and it is logical. A browser would start reading an HTML page from the top going down, from left going right. It does follow a basic structure. First, you have to declare that the document is an HTML document. You can do this by using the tag. Then there are the two other sections called the and of your document. The head is where you put in all the information you want to include about your document. The body is basically the content of your HTML document. Put in another way, the section is what people see when they view your HTML document.
 
@@ -109,7 +109,7 @@ Congratulations – you have a perfectly renderable HTML file you could put on t
 
 Technically, HTML documents contain only tags. When they are accessed on a browser, HTML documents are then parsed so that these could be displayed using the Document Object Model (DOM). The tags are there in the HTML document, but HTML elements only appear after the document has been parsed.
 
-![](img%5CHTML%201012.png)
+![](<img/HTML 1012.png)
 
 
 When learning about HTML, you will come across different resources that may use HTML elements and tags interchangeably. Chances are, that's because they wanted to simplify everything and make it easier for you to understand. However, there is a difference when you refer to HTML elements and HTML tags. 
@@ -140,7 +140,7 @@ Syntax: the arrangement of words and phrases to create well-formed sentences i
 
 Then there is also what is called the "nested elements." Nested elements are HTML elements that are found within other HTML elements. For example, this is a nestled element: 
 
-![](img%5CHTML%201013.png)
+![](<img/HTML 1013.png)
 
 Lastly, an HTML element may contain attributes, which we will discuss later on. 
 
@@ -245,7 +245,7 @@ You should place your title element within the title section of your HTML docume
 
 </ul>
 ```
-![](img%5CHTML%201014.png)
+![](<img/HTML 1014.png)
 
 
 Unordered lists are also called bulleted lists and, unlike ordered lists (`ol`, but we are not going to look at them for now), the sequence of items is not important in this type of list.
@@ -258,7 +258,7 @@ Let’s go ahead and add it into our index.html file. You can also have nested l
 
 ```<tag attribute="value of attribute">content</tag>```
 
-![](img%5CHTML%201015.png)
+![](<img/HTML 1015.png)
 
 Another term you would need to know when it comes to HTML elements are *attributes*. Attributes modify the tags where they appear. Attributes are name-­value pairs, which are separated by the equal sign
 
@@ -271,7 +271,7 @@ Images are a big part of any Web page. It helps to drive your point across and h
 
 ```<img src="imagefile.jpg" alt="image on your site" width="100" height="100">```
 
-![](img%5CHTML%201016.png)
+![](<img/HTML 1016.png)
 
 You’ll note the img tag is self-closing – it doesn’t have a pair tag closing it.
 
@@ -285,7 +285,7 @@ Wait…what’s a URL?
 
 ## What’s a URL
 
-![](img%5CHTML%201017.png)
+![](<img/HTML 1017.png)
 
 A Uniform Resource Locator contains:
 
@@ -320,7 +320,7 @@ When inserting an image, it would be a good practice to specify the width and he
 
 ### Let’s add a picture to our page
 
-Find a picture on the internet and copy the URL (make sure the URL ends in .jpg)
+Find a picture on the internet and copy the URL (make sure the URL ends in .jpg>)
 
 ```<img src=“URL IN HERE_ " alt=“alt text" width="100" height="100">```
 
@@ -358,7 +358,7 @@ It’s possible to make a link when clicking on an image
 
 Remember you can nest HTML elements….
 
-![](img%5CHTML%201018.png)
+![](<img/HTML 1018.png)
 
 ## Tables
 
@@ -391,7 +391,7 @@ Let us start with just one cell. To do this, use the following code:
 
 </table>
 ```
-![](img%5CHTML%201019.png)
+![](<img/HTML 1019.png)
 
 ---
 
@@ -411,7 +411,7 @@ Go ahead and add it to your index.html file!
 
 </table>
 ```
-![](img%5CHTML%2010110.png)
+![](<img/HTML 10110.png)
 
 
 If you need another column you’d just add another \<td>. The number of \<td> lines would correspond with the number of columns..
@@ -452,7 +452,7 @@ For example, to create the following table:
 </table>
 ```
 
-![](img%5CHTML%2010111.png)
+![](<img/HTML 10111.png)
 
 If you need to include headers in your table, you would need to use the tag instead of the tag in your first set. For example, to create the following table you would use the code on the right.
 
@@ -485,7 +485,7 @@ NOTE: can use \<thead> instead of \<tr> for first row – it renders the same
 
 </table>
 ```
-![](img%5CHTML%2010112.png)
+![](<img/HTML 10112.png)
 
 There are times when you need to have headers or cells that spans two or more rows or columns. You can accomplish this using colspan or rowspan.
 
@@ -517,7 +517,7 @@ There are times when you need to have headers or cells that spans two or more ro
 
 </table>
 ```
-![](img%5CHTML%2010113.png)
+![](<img/HTML 10113.png)
 
 ### Tables Are Flexible
 
@@ -569,7 +569,7 @@ For example:
 
 ```School: <input type="text" name="schoolname">```
 
-![](img%5CHTML%2010114.png)
+![](<img/HTML 10114.png)
 
 ---
 
@@ -621,7 +621,7 @@ Radio buttons are used when you have a set number of options and you only want t
 
 <input type="radio" name="reply" value="nay">Nope
 ```
-![](img%5CHTML%2010115.png)
+![](<img/HTML 10115.png)
 
 ---
 
@@ -646,7 +646,7 @@ Drop­down menus allow you to give your visitors a set number of options to choo
 
 </select>
 ```
-![](img%5CHTML%2010116.png)
+![](<img/HTML 10116.png)
 
 ---
 
@@ -672,7 +672,7 @@ Input text here
 </textarea>
 ```
 
-![](img%5CHTML%2010117.png)
+![](<img/HTML 10117.png)
 
 ---
 
@@ -688,7 +688,7 @@ The correct syntax for the submit button is:
 
 ```<input type="submit" value="Submit">```
 
-![](img%5CHTML%2010118.png)
+![](<img/HTML 10118.png)
 
 ---
 
@@ -718,7 +718,7 @@ The doctype declaration is usually the very first thing defined in an HTML docum
 
 The DOCTYPE for HTML5 is very short, concise, and case-insensitive.
 
-![](img%5CHTML%2010119.png)
+![](<img/HTML 10119.png)
 
 Doctypes for earlier versions of HTML were longer because the HTML language was SGML-based and therefore required a reference to a DTD, but they are obsolete now.
 
@@ -736,9 +736,9 @@ Using the \<div> elements is the most common method of creating layouts in HTML.
 
 The following example uses the div elements to create a multiple column layout:
 
-![](img%5CHTML%2010120.png) 
+![](<img/HTML 10120.png) 
 
-We've created [this layout](/layout/BJSS%20Academy%20Index%20Page.html) using divs and semantic HTML5.
+We've created [this layout](/layout/BJSS Academy Index Page.html) using divs and semantic HTML5.
 
 # HTML 5
 
@@ -768,7 +768,7 @@ However, it’s **important** to note that this attribute is not accessible to a
 
 You should always add a label to the input:
 
-![Alt text](img/Picture30.jpg)
+![Alt text](img/Picture30.jpg>)
 
 Notice here that the label has a for attribute, and that must match the id attribute on the input element. This way screenreaders know what the label is for!
 
@@ -778,7 +778,7 @@ Then we also have the \<button> element itself. This can take a type attribu
 
 Buttons always behave the same whether you use a \<button> element or an \<input> element:
 
-![Alt text](img/Picture32.jpg)
+![Alt text](img/Picture32.jpg>)
 
 
 As you can see from the examples, however, \<button> elements let you use HTML in their content, which is inserted between the opening and closing \<button> tags. \<input> elements on the other hand are void elements; their displayed content is inserted inside the value attribute, and therefore only accepts plain text as content.
@@ -795,7 +795,7 @@ One of the most significant features of modern form controls is the ability to v
 
 If the data entered in a form field follows all of the rules specified by the above attributes, it is considered valid. If not, it is considered invalid.
 
-![Alt text](img/Picture33.jpg)
+![Alt text](img/Picture33.jpg>)
 
 In the example here, this means the maximum length of the username filed can be 12 characters.
 
@@ -803,11 +803,11 @@ In the example here, this means the maximum length of the username filed can be 
 
 Inside a \<form> if you add the required attribute to an input element, when the form is submitted it will check for validity before submitting. For example, the Email field below is of type “email” and has the required attribute:
 
-![Alt text](img/Picture34.jpg)
+![Alt text](img/Picture34.jpg>)
 
 ## Workshop 1
 
-Take [this html file](/labs/HTML5%20Web%20Page%20Layout.html), and add the required input controls to the \<form>.
+Take [this html file](/labs/HTML5 Web Page Layout.html), and add the required input controls to the \<form>.
 
 Feel free to experiment with other input types, validation and placeholders!
 
