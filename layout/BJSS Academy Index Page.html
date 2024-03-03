@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <title>BJSS Academy Index Page</title>
+    <style>
+      body {
+        font: 14px Arial, sans-serif;
+        margin: 0px;
+      }
+      .header {
+        padding: 10px 20px;
+        background: #acb3b9;
+      }
+      .header h1 {
+        font-size: 24px;
+      }
+      .container {
+        width: 100%;
+        background: #f2f2f2;
+      }
+      .nav,
+      .section {
+        float: left;
+        padding: 20px;
+        min-height: 1000px;
+        box-sizing: border-box;
+      }
+      .nav {
+        width: 20%;
+        background: #d4d7dc;
+      }
+      .section {
+        width: 80%;
+      }
+      .nav ul {
+        list-style: none;
+        line-height: 24px;
+        padding: 0px;
+      }
+      .nav ul li a {
+        color: #333;
+      }
+      .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
+      .footer {
+        background: #acb3b9;
+        text-align: center;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 id="mainhead">My Heading</h1>
+      </div>
+      <div class="wrapper clearfix">
+        <div class="nav"></div>
+        <div class="section">
+          <p>Hello, my name is <strong>HAL 9000</strong></p>
+          <p>
+            When we want a new line we use <br />
+            And can continue on the next line
+          </p>
+          <!--tag ul is not allowes inside p tag-->
+          <ul id="unorderedlist">
+            <li>This is item #1.</li>
+            <li>This is item #2.</li>
+            <li>This is item #3.</li>
+            <li>
+              <ul>
+                <li>Nested list</li>
+              </ul>
+            </li>
+          </ul>
+          <p>
+            <img
+              src="https://cdn.openbankingexpo.com/wp-content/uploads/2019/05/BJSS_600.png"
+              id="bjssimg"
+              alt="My description"
+              width="100"
+              height="100"
+            />
+          </p>
+          <p>
+            <a href="http://www.google.com" id="googlelink">Google It!</a>
+          </p>
+          <p>
+            Clickable image:<br />
+            <a href="http://www.bjss.com" id="bjsslink">
+              <!--Note here that we have removed the height atttribute so the image renders correct according to its ratio-->
+              <img
+                src="https://cdn.openbankingexpo.com/wp-content/uploads/2019/05/BJSS_600.png"
+                id="bjssimg2"
+                alt="My description"
+                width="100"
+              />
+            </a>
+          </p>
+          Table headers:<br />
+          <table id="tbl" border="1">
+            <tr id="tblheader">
+              <th>Header 1</th>
+              <th>Header 2</th>
+              <th>Header 3</th>
+            </tr>
+            <tr>
+              <td>Row 1, Column 1</td>
+              <td>Row 1, Column 2</td>
+              <td>Row 1, Column 3</td>
+            </tr>
+          </table>
+          Spanning columns:<br />
+          <table id="tblcol" border="1">
+            <tr>
+              <th>Category</th>
+              <th colspan="3">Examples</th>
+            </tr>
+            <tr>
+              <td>Fruits</td>
+              <td>Apples</td>
+              <td>Oranges</td>
+              <td>Grapes</td>
+            </tr>
+          </table>
+          Spanning rows:<br />
+          <table id="tblrow" border="1">
+            <tr>
+              <th>Category</th>
+              <th>Examples</th>
+            </tr>
+            <tr>
+              <td rowspan="2">Fruit</td>
+              <td>Strawberry</td>
+            </tr>
+            <tr>
+              <td>Orange</td>
+            </tr>
+          </table>
+          My Form<br />
+          <form id="mainform">
+            <input type="password" id="pword" name="pword" />
+            <br />
+            <input
+              type="checkbox"
+              id="option1"
+              name="option1"
+              value="opt1"
+              checked
+            />Option 1
+            <br />
+            <input
+              type="checkbox"
+              id="option2"
+              name="option2"
+              value="opt2"
+            />Option2
+            <br />
+            <input type="radio" id="yup" name="reply" value="yay" />Yup
+            <br />
+            <input type="radio" id="nope" name="reply" value="nay" />Nope
+            <br />
+            <select id="alphabets" name="alphabets">
+              <option value="a">A</option>
+              <option value="b">B</option>
+              <option value="c" selected>C</option>
+              <option value="d">D</option>
+            </select>
+            <br />
+            <textarea id="mytext" name="mytext">
+                          Input text here
+            </textarea>
+            <textarea id="textarearowcols" rows="10" cols="10">
+                          Input text here
+            </textarea>
+            <br />
+            <input type="submit" id="submitbtn" value="Submit" />
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <p>copyright &copy; bjss academy</p>
+      </div>
+    </div>
+  </body>
+</html>
