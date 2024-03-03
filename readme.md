@@ -768,7 +768,7 @@ However, it’s **important** to note that this attribute is not accessible to a
 
 You should always add a label to the input:
 
-![Alt text](img/Picture30.jpg>)
+![Alt text](img/Picture30.jpg)
 
 Notice here that the label has a for attribute, and that must match the id attribute on the input element. This way screenreaders know what the label is for!
 
@@ -778,7 +778,7 @@ Then we also have the \<button> element itself. This can take a type attribu
 
 Buttons always behave the same whether you use a \<button> element or an \<input> element:
 
-![Alt text](img/Picture32.jpg>)
+![Alt text](img/Picture32.jpg)
 
 
 As you can see from the examples, however, \<button> elements let you use HTML in their content, which is inserted between the opening and closing \<button> tags. \<input> elements on the other hand are void elements; their displayed content is inserted inside the value attribute, and therefore only accepts plain text as content.
@@ -795,7 +795,7 @@ One of the most significant features of modern form controls is the ability to v
 
 If the data entered in a form field follows all of the rules specified by the above attributes, it is considered valid. If not, it is considered invalid.
 
-![Alt text](img/Picture33.jpg>)
+![Alt text](img/Picture33.jpg)
 
 In the example here, this means the maximum length of the username filed can be 12 characters.
 
@@ -803,7 +803,7 @@ In the example here, this means the maximum length of the username filed can be 
 
 Inside a \<form> if you add the required attribute to an input element, when the form is submitted it will check for validity before submitting. For example, the Email field below is of type “email” and has the required attribute:
 
-![Alt text](img/Picture34.jpg>)
+![Alt text](img/Picture34.jpg)
 
 ## Workshop 1
 
